@@ -15,10 +15,10 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Very Dark Blue: hsl(230, 29%, 20%)
-- Dark Grayish Blue: hsl(230, 11%, 40%)
-- Grayish Blue: hsl(231, 7%, 65%)
-- Light Grayish Blue: hsl(207, 33%, 95%)
+- Very Dark Blue: hsl(230, 29%, 20%) // header
+- Dark Grayish Blue: hsl(230, 11%, 40%) // p // login // dot
+- Grayish Blue: hsl(231, 7%, 65%) // nav bg
+- Light Grayish Blue: hsl(207, 33%, 95%) // background // new span // button // 
 
 ## Typography
 

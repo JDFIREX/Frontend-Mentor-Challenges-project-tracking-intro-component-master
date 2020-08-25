@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Project tracking intro component</title>
-
+  <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,25 +16,49 @@
   </style>
 </head>
 <body>
-  Product
-  Features
-  Pricing
-  Login
 
-  New
-  Monograph Dashboard
+  <main>
+    <div class="container">
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
-
-  Schedule a demo
-  to see a live preview
-  
-  <footer>
+      <header>
+        <div class="img_box">
+          <img src="images/logo.svg" alt="logo">
+        </div>
+        <div class="monograph">
+          <span class="action BG-Very-Dark-Blue Light-Grayish-Blue">NEW</span>
+          <p class="action Grayish-Blue">Monograph Dashboard</p>
+        </div>
+        <div class="main_header">
+          <h1 class="Very-Dark-Blue">Powerful insights into your team</h1>
+          <p>Project planning and time tracking for agile teams</p>
+        </div>
+        <div class="header_button">
+          <div class="button  BG-red">
+            <p class="action Light-Grayish-Blue">Schedule a demo</p>
+          </div>
+          <p class="button_p action Grayish-Blue">TO SEE A PREVIEW</p>
+        </div>
+      </header>
+      <nav>
+        <div class="nav_bg BG-Light-Grayish-Blue"></div>
+        <div class="nav_list">
+          <div class="nav_item"><p class="action Very-Dark-Blue">Product</p></div>
+          <div class="nav_item"><p class="action Very-Dark-Blue">Features</p></div>
+          <div class="nav_item"><p class="action Very-Dark-Blue">Pricing</p></div>
+          <div class="nav_item_dot"></div>
+          <div class="nav_item"><p class="action Grayish-Blue">Login</p></div>
+        </div>
+        <div class="nav_img_box">
+          <img src="images/illustration-devices.svg" alt="illustrations devices">
+        </div>
+      </nav>
+    </div>
+  </main>
+  <div style="width: auto; position: fixed ; bottom: 0px; left : 10px; color: black;">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/JDFIREX" target="_blank">Jonatan Dajtrowski</a>.
     </p>
-  </footer>
+  </div>
 </body>
 </html>
